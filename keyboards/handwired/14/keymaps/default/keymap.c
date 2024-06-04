@@ -49,9 +49,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───┴───┴───┴───┘
      */
     [_Alpha1] = LAYOUT_split_2x3_2(
-        KC_C,   KC_L,   KC_D,   KC_H, KC_O, KC_R,
-        KC_S,   KC_N,   KC_T,   KC_E, KC_A, KC_I,
-        XXXXXXX,                KC_SPACE 
+        NUM(KC_C),  KC_L,       MAC(KC_D),   MAC(KC_H), KC_O,       NUM(KC_R),
+        SYM2(KC_S), SYM1(KC_N), SYS(KC_T),   SYS(KC_E), SYM1(KC_A), SYM2(KC_I),
+        OSL(_Alpha2),         MEH_T(KC_SPACE)
     ),
 
     [_Alpha2] = LAYOUT_split_2x3_2(

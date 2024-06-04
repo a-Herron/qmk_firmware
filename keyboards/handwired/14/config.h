@@ -3,6 +3,9 @@
 
 #pragma once
 
+#define USE_SERIAL
+#define MASTER_LEFT
+#define EE_HANDS
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
