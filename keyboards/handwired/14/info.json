@@ -13,7 +13,7 @@
     },
     "matrix_pins": {
         "direct": [
-            ["D7", "F5", "F6"],
+            ["D7", "D4", "F6"],
             ["B4", "E6", "B3"],
             ["B2", null, null]
         ]
