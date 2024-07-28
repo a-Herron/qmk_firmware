@@ -1,0 +1,9 @@
+#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 240
+#define PERMISSIVE_HOLD_PER_KEY
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+
+// Only support up to 8 layers
+#define LAYER_STATE_8BIT
+#define COMBO_TERM 25
+#define MASTER_LEFT
